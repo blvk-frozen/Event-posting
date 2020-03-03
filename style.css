@@ -4,3 +4,43 @@ body {
   text-align: center;
   
 }
+
+.navbar #search {
+  background-color: black;
+}
+
+.navbar{
+  background-color: maroon;
+  background-image: none;
+  position: sticky;
+  color: blue;
+}
+
+.navbar img {
+  height: 35px;
+  width: auto;
+}
+
+.navbar .row {
+  width: 50%;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.contact p {
+  text-align: left;
+}
+
+.media img{
+  padding-left : 10px;
+  padding-right : 10px;
+}
+
+.media{
+  padding-top: 35px;
+  padding-left : 37.5%;
+}
+
+.end{
+  font-size: 3mm;
+}
