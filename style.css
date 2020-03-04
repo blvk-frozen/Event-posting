@@ -18,7 +18,7 @@ h1 {
 }
 
 .navbar img {
-  height: 35px;
+  height: 40px;
   width: auto;
 }
 
@@ -28,6 +28,7 @@ h1 {
   background-color: #333;
   font-family: Arial;
   color: blue;
+  padding: 0px;
 }
 
 /* Links inside the navbar */
