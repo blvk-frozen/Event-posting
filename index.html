@@ -11,6 +11,7 @@
     <title>EVENTLINE</title>
   </head>
   <body>
+   <div class="container">
     <div class = "navbar">
       <img src="IMG/logo.png">
       <h3>EventLine</h3>
@@ -19,78 +20,56 @@
             <a href="index.html">Home</a>
         </div>
         <div class = "col-md-2">
-          <a href="events.html">Events</a>
+          <div class="dropdown">
+            <button class="dropbtn">Events
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Music</a>
+              <a href="#">Art</a>
+              <a href="#">Sports</a>
+            </div>
+          </div>
         </div>
         <div class = "col-md-2">
-          <a href=".aboutus">About</a>
+          <a href="#aboutus">About</a>
         </div>
         <div class = "col-md-2">
-          <a href=".contact">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class = "col-md-4">
-          Login/Sign up
+          <p>Login/Sign up</p>
         </div>
       </div>
       <input type="text" id="search" placeholder="Search">
     </div>
 
-</div class="events">
-<h1>EVENTS</h1>
-<p>In this topic we are going to speak about the types of events we have in this site.
-   For the events we have there are only three categories cause they are big and most
-  of the people do attend these events and they are:
-                                                    <li>1.Music Events</li>
-                                                    <li>2.Arts Event</li>
-                                                    <li>3.Sports Event</li>
-                                                                          </p>
-</div class="music events">
-<h1>Music Events</h1>
-About music events it is a widely known industry which compiles different types of music.
-During this event many people attend and this will help anyone who posts their music event 
-will get people who will attend their event and it will be a good plattform for anyone who 
-will post their music events in our site cause it will market their event.Even this will help 
-the upcoming artist to attend this event and perform in order for them to catch a big crowd and 
-have their fan base created in different music events.
-
-</div class="arts event">
-<h1>Arts Event</h1>
-In the Arts event it is all about the drawing and this brings alot of business people together
-and one of them may buy the art.For the starters in this eventline site will be able to satrt their
-work in a very high rate and many people will be interested to see how their events will perform in order
-for them to continue attending their events.
-
-</div class="sports event">
-<h1>Sports Event</h1>
-Many people in the world like sports very much and it unites many of us worldwide.If we see a game like soccer 
-it is the best game for many of us in the world.Hundreds of thousands of people attend this sports event be it
-tennis,soccer,football motorGP,grandpix or basketball.For the sport event people they have a big plattform cause
-nobody likes to miss the sports part.
-    <div>
+    <div class = "intro">
       <H1>WELCOME TO</H1>
-      <H2>EVENTLINE</H2>
+      <H1>EVENTLINE</H1>
       <h6>GOOD MUSIC FLOWS IN YOUR BLOOD AND YOU FEEL IT.</h6>
     </div>
 
-    <div class="events">
-      <h1>EVENTS</h1>
+    <div class = "events">
+      <h2>EVENTS</h2>
       <p>In this topic we are going to speak about the types of events we have in this site.
-       For the events we have there are only three categories cause they are big and most
+       For the events we have<br> there are only three categories cause they are big and most
       of the people do attend these events and they are:
         <li>1.Music Events</li>
         <li>2.Arts Event</li>
         <li>3.Sports Event</li></p>
     </div>
 
-    <div class="aboutus">
-      <h1>ABOUT US</h1>
+    <div id  = "aboutus">
+      <h2>ABOUT US</h2>
       <p>Our site helps you to know the various events that are around you or far from you depending on which area you are in.
-        About our site is that we are always updated with coming events which are weeks or months ahead and there is no need 
-        of asking about events locally but you can find them in our site very easily.Our site has different locations and also 
-        it shows all the events worldwide.If you are lost in any way in your area, we can help you to get back to your track by using the
-        google map which is also included in our site.</p> 
+        <br>About our site is that we are always updated with coming events which are weeks or months ahead and there is no need 
+        <br> asking about events locally but you can find them in our site very easily.Our site has different locations and also 
+        it shows<br> all the events worldwide.If you are lost in any way in your area, we can help you to get back to your track by using the
+        <br>google map which is also included in our site.</p> 
     </div>
 
-    <div class="contact">
+    <div id = "contact">
       <h2>Contact Us</h2>
       <h5>You can contact us through the following:</h5>
       <br>
@@ -107,6 +86,7 @@ nobody likes to miss the sports part.
 
     <div class ="end">
       <p>EVENTLINE<br>2020</p>
-      </div>
+    </div>
+   </div>
   </body>
 </html>
