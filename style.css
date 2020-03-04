@@ -8,6 +8,18 @@ h1 {
   color: yellow;
 }
 
+.navbar h1 {
+  color: blue;
+}
+
+.navbar .row {
+  width: 65%;
+}
+
+h3 {
+  color: green;
+}
+
 .navbar #search {
   background-color: grey;
   color: white;
@@ -95,6 +107,10 @@ h1 {
 }
 
 .events {
+  padding: 75px;
+}
+
+.music-events {
   padding: 75px;
 }
 
