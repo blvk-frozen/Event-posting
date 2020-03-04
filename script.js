@@ -11,4 +11,4 @@ $(document).ready(function() {
         $(".columnsports").toggle();
         $(".columnshowingsports").toggle();
       });
-  });
+  });   
