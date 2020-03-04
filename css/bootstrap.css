@@ -545,31 +545,44 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: khaki;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    margin-left: 20px;
   }
 }
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin-left: 10px;
+  }
+}
+
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+    margin-left: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+    margin-left: 40px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+    margin-left: 100px;
   }
 }
 
