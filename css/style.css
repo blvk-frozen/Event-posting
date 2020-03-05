@@ -1,17 +1,17 @@
-body{
+/* body{
     background-color: black;
-}
-.currentEvents{
-    text-align: center;
     font-family: monospace;
     font-weight: bold;
+} */
+.currentEvents{
+    text-align: center;
     margin-bottom: 40px;
     font-size: 15px;
 }
 .currentEvents img{
-    float: left;
-    margin-right: 60px;
     height: 200px;
+    margin-bottom: 20px;
+    width: 40%;
 }
 h3{
     text-align: center;
@@ -35,8 +35,9 @@ h3{
     width: 325px;
     margin-left: 50px;
     position: relative;
-    background-color: gray;
+    background-color: #C1CAC1;
     margin-top: 20px;
+    text-align: center;
 }
 .columnshowingart{
     text-align: center;
@@ -51,8 +52,9 @@ h3{
     width: 325px;
     margin-left: 50px;
     position: relative;
-    background-color: gray;
+    background-color: #C1CAC1;
     margin-top: 20px;
+    text-align: center;
 }
 .columnshowingmusic{
     text-align: center;
@@ -67,8 +69,9 @@ h3{
     width: 325px;
     margin-left: 50px;
     position: relative;
-    background-color: gray;
+    background-color: #C1CAC1;
     margin-top: 20px;
+    text-align: center;
 }
 .columnshowingsports{
     text-align: center;
@@ -171,12 +174,12 @@ h2{
 }
 .reviews{
     border: 2px solid black;
-    margin: 10px;
+    margin-top: 40px;
     background-color: white;
 }
 form{
     text-align: center;
-    background-image: url("../images/comments.jpg");
+    background-image: url("../images/comment.jpg");
     color: white;
 }
 .reviews input{
@@ -208,4 +211,7 @@ form{
 }
 #comment2{
     color: white;
+}
+.card-footer:last-child p{
+    text-align: center;
 }
