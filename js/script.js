@@ -38,7 +38,7 @@ function Contact(name, email, comment2) {
   
       $("input#name").val("");
       $("input#email").val("");
-      $("input#comment2").val("");
+      $("#comment2").val("");
 
       alert("Thank you for commenting");
 
