@@ -12,6 +12,10 @@ h3 {
   color: green;
 }
 
+h5 {
+  text-align: left;
+}
+
 img {
   height: 40px;
 }
@@ -24,19 +28,31 @@ img {
   padding: 75px;
 }
 
-#musicEvents {
+#music {
   padding: 75px;
   background-image: url("IMG/music.jpeg");
 }
 
-#artsEvent {
+#arts {
   padding: 75px;
   background-image: url("IMG/art.jpeg");
 }
 
-#sportsEvent {
+#sports {
   padding: 75px;
   background-image: url("IMG/sports.jpeg");
+}
+
+#music p {
+  color: white;
+}
+
+#arts p {
+  color: white;
+}
+
+#sports p {
+  color: white;
 }
 
 #aboutus {
