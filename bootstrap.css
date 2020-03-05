@@ -3399,7 +3399,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: grey;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -4348,6 +4348,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: white;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4625,11 +4626,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: blue;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: blue;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -4637,7 +4638,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  background-color: red;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4648,12 +4649,12 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-color: white;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -6749,7 +6750,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: black !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
