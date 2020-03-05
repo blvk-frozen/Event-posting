@@ -110,8 +110,19 @@ h3 {
   padding: 75px;
 }
 
-.music-events {
+#musicEvents {
   padding: 75px;
+  background-image: url("IMG/music.jpeg");
+}
+
+#artsEvent {
+  padding: 75px;
+  background-image: url("IMG/art.jpeg");
+}
+
+#sportsEvent {
+  padding: 75px;
+  background-image: url("IMG/sports.jpeg");
 }
 
 #aboutus {
@@ -119,6 +130,10 @@ h3 {
 }
 
 #contact p {
+  text-align: left;
+}
+
+#contact h3 {
   text-align: left;
 }
 
@@ -134,4 +149,8 @@ h3 {
 
 .end{
   font-size: 3mm;
+}
+
+.columnshowing {
+  display: none;
 }
