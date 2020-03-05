@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>events</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="currentEvents"> 
+                <img src="images/all.jpeg">
+                <br><p>On this tab you can see the events available to you either near or far.<br>It contains:
+                            <li>The type of event</li>
+                            <li>The details about the events e.g dates, locations and ticket prices if any</li>
+                            <li>Age requirements</li>
+                    </p>
+            </div>
+            <h2><strong>CURRENT EVENTS</strong></h2>
+            <div class="row">
+                <div class="art">
+                    <div class="columnart">
+                        <img src="images/art.jpg"  class="image">
+                            <div class="hold">
+                                <div class="text">art<br>click here</div>
+                            </div>
+                    </div>
+                    <div class="columnshowingart">
+                        <h4>Available art events</h4>
+                            <p>Art events in this case refer to drawing,<br>Some are:
+                                <li class="bg-secondary">Kenyatta art expo<br>
+                                    &emsp;&emsp;On friday<br>
+                                    &emsp;&emsp;At Kenyatta Avenue<br>
+                                    &emsp;&emsp;No payment required<br>
+                                    &emsp;&emsp;<span class="bg-success">Entry to all ages</span></li>
+                            </p>
+                    </div>
+                </div>
+                <div class="music">
+                    <div class="columnmusic">
+                        <img src="images/music.png"  class="image">
+                            <div class="hold">
+                                <div class="text">music<br>click here</div>
+                            </div>
+                    </div>
+                    <div class="columnshowingmusic">
+                        <h4>Available music events</h4>
+                            <p>Things to do with musicians,<br>Here it is:
+                                <li class="bg-secondary">Kilimani kimuziki<br>
+                                    &emsp;&emsp;On saturday<br>
+                                    &emsp;&emsp;At Kilimani hotel/resort<br>
+                                    &emsp;&emsp;1 ticket=ksh 1000<br>
+                                    &emsp;&emsp;<span class="bg-danger">18+ ONLY</span></li>
+                            </p>
+                    </div>
+                </div>
+                <div class="sports">
+                    <div class="columnsports">
+                        <img src="images/sports.jpg"  class="image">
+                            <div class="hold">
+                                <div class="text">sports<br>click here</div>
+                            </div>
+                    </div>
+                    <div class="columnshowingsports">
+                        <h4>Available sportd events</h4>
+                            <p>Foota, Rugby setiiiii<br>Ndizo hizi!!:
+                                <li class="bg-secondary">KPL<br>
+                                    &emsp;&emsp;On saturday<br>
+                                    &emsp;&emsp;Nyayo stadium<br>
+                                    &emsp;&emsp;free for all<br>
+                                    &emsp;&emsp;<span class="bg-success">Entry to all ages</span></li>
+                            </p>
+                    </div>
+                </div>
+            </div> 
+        
+            <div class="upcoming">
+                <div class="card">
+                    <div class="card-title">
+                        <br><br><h2><strong>UPCOMING EVENTS</strong></h2><br>
+                            <p><strong>Watch out for this MONTH'S hot events.</strong></p>
+                    </div>
+                    <h3><strong>UPCOMING EVENTS OF THE MONTH</strong></h3><br><br>
+                </div>  
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="images/hands.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title bg-success">TIESTO CONCERT IN KENYA</h5>
+                                    <p class="card-text">Come and experience Thrill and Moves of House music with a little bit of Electric Dance Music<br>
+                                    PRICE:Ksh 5000<br>DATES:13.03.2020<br>
+                                    <small class="text-muted">Last updated 10  mins ago</small></p>
+                            </div>
+
+                    </div>
+                    <div class="card">
+                        <img src="images/expo.jpeg" alt="Card image cap">
+                            <div class="card-body ">
+                                <h5 class="card-title bg-success">ART FIESTA</h5>
+                                    <p class="card-text">Join artists from around the world here in Nairobi at the Mcmillan Library in the CBD.<br>
+                                    PRICE:Ksh 2000<br>DATES:22.03.2020<br>
+                                    <small class="text-muted">Last updated 50 mins ago</small></p>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/underground.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title bg-success">Underground Boxing Match</h5>
+                                    <p class="card-text">Who will Win? Come and watch the fight of the century between Papa Dawg and WMD<br>
+                                    ENTRY:FREE<br>09.03.2020 ALL NIGHT<br>
+                                    <small class="text-muted">Last updated 5 hrs ago</small></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews">
+                <div class="actualComments">
+                    <h5><strong>comments</strong></h5>
+                        <ul id="actualComments">
+                            <li>Hubba<br>I loved the art expo, thanks for the recommendation</li><br>
+                            <li>Muchai<br>Can't wait for the fight</li><br>
+                            <li>BLVCK<br>All night music events, Damn.</li><br>
+                        </ul>
+                </div>
+                <form id="comment">
+                    <p><strong>Leave a comment sharing your experience</strong></p>
+                        <input type="text" id="name" placeholder="name">
+                        <input type="email" id="email" placeholder="email"><br>
+                        <textarea rows="3" cols="45" id="comment2" placeholder="leave your comment here"></textarea><br>
+
+                        <button class="btn-primary" type="submit" class="btn">Add</button>
+                </form>
+            </div>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
