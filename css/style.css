@@ -1,8 +1,6 @@
-/* body{
-    background-color: black;
-    font-family: monospace;
-    font-weight: bold;
-} */
+.navbar img {
+    height: 40px;
+}
 .currentEvents{
     text-align: center;
     margin-bottom: 40px;
@@ -177,7 +175,7 @@ h2{
     margin-top: 40px;
     background-color: white;
 }
-form{
+form#comment{
     text-align: center;
     background-image: url("../images/comment.jpg");
     color: white;
